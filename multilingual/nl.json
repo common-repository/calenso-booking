@@ -1,0 +1,72 @@
+{   
+    "Add_New_Button":"Nieuwe toevoegen",
+    "Shortcode_Tab_Title" : "Titel",
+    "Shortcode_Tab_Details" : "Details",
+    "Shortcode_Tab_Shortcode" : "Shortcode",
+    "Shortcode_Tab_Date_&_Time" : "Datum &amp; tijd",
+
+    "Universal_Title": "Calenso Booking",
+
+    "Header_Title": "Wordpress setup wizard",
+    "Header_Subtitle": "Integreer Calenso in uw website met onze intuïtieve setup wizard.",
+    
+
+    "Stepper_Step_1_Introduction": "Inleiding",
+    "Stepper_Step_2_Booking_Name": "Boekingsnaam",
+    "Stepper_Step_3_Configuration": "Configuratie",
+    "Stepper_Step_4_Integration_Code": "Integratiecode",
+
+
+    "Page_1_Text_Calenso_Description_Part_1": "Calenso maakt het mogelijk online afspraken te maken tussen u en uw klanten voor individuele afspraken, groepsreserveringen of middelen zoals kamers, voertuigen, parkeerplaatsen en nog veel meer.",
+    "Page_1_Text_Calenso_Description_Part_2": "De intelligente tool berekent niet alleen alle vrije afspraken door verschillende kalenders te vergelijken, maar herinnert uw klanten ook aan komende afspraken. Verdere intelligente en volautomatische functies zoals Smart Actions of de betaalfuncties bieden u een breed scala aan functies in vier talen. Intelligent - Eenvoudig - Transparant!",
+    
+    "Page_1_Button_Calenso_Account_Exists": "Laten we gaan! - Ik heb al een Calenso account",
+    "Page_1_Button_Create_New_Calenso_Account": "Ik wil graag een Calenso account aanmaken!",
+
+
+    "Page_2_Text_Booking_Link_Description": "Toen u zich registreerde bij Calenso, werd er een boekingslink voor u gegenereerd op basis van uw bedrijfsnaam. U kunt de boekingslink vinden in uw Calenso dashboard onder: ",
+    "Page_2_Text_Link_To_Booking_Link_Location":"Instellingen > Bedrijfsprofiel > Boekingslink.",
+    "Page_2_Text_Booking_Link_Instructions":"Vul de boekingslink in het onderstaande tekstveld in en klik op “Doorgaan“.",
+    
+    "Page_2_Input_Booking_Link":"Voer boekingsnaam in...",
+    "Page_2_Button_Continue":"Doorgaan",
+    
+    "Page_2_Text_Error_Message_Booking_Link_Wrong":"Helaas, er kon geen Calenso account worden gevonden voor de ingevoerde boekingsnaam. Probeer een andere boekingsnaam.",
+
+
+    "Page_3_Text_Integration_Type_Selector":"Type integratie",
+    "Page_3_Selection_iFrame":"iFrame",
+    "Page_3_Selection_Web_Component":"Webcomponent",
+    "Page_3_Text_Support_Article_Part_1":"Dit ondersteunende artikel ",
+    "Page_3_Text_Support_Article_Part_2":"beschrijft het verschil tussen iFrame en web component.",
+
+    "Page_3_Text_Booking_Type_Selector":"Type boeking",   
+    "Page_3_Selection_Appointment":"Afspraak",
+
+    "Page_3_Text_Branch_Selector": "Filiaal",
+
+    "Page_3_Text_Service_Selector":"Dienst",
+
+    "Page_3_Text_Group_Appointment_Selector": "Groepsafspraak",
+    "Page_3_Text_Group_Appointment_Error_Not_Found":"Geen groepsdatum gevonden.",
+
+    "Page_3_Text_Employee_Selector":"Werknemers",
+
+    "Page_3_Text_Language_Selector":"Taal",
+
+    "Page_3_Button_Create_Shortcode":"Shortcode maken",
+    
+    "Page_3_Button_Update_Shortcode":"Shortcode opslaan",
+
+    "Page_4_Text_Shortcode_Instructions" :"Plaats deze shortcode op elke pagina/post van deze website om de Calenso boekingswidget weer te geven.",
+    "Page_4_Button_Finalize_Setup":"Definitieve opstelling",
+
+ 
+    "Sidebar_Text_Description":"Bezoek de ondersteuningspagina",
+    "Sidebar_Text_Setup_Question":"Geen zin of tijd om de rekening op te zetten?",
+    "Sidebar_Button_Link_To_Setup_Help":"Laten we de setup doen",
+
+    
+    "Error_Text_Missing_Data":"Sommige vereiste gegevens ontbreken.",
+    "Error_Text_Problem_Has_Occured":"Er is een probleem opgetreden Probeer het opnieuw."    
+}

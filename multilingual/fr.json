@@ -1,0 +1,73 @@
+{   
+    "Add_New_Button":"Ajouter nouveau",
+    "Shortcode_Tab_Title" : "Titre",
+    "Shortcode_Tab_Details" : "Détails",
+    "Shortcode_Tab_Shortcode" : "Shortcode",
+    "Shortcode_Tab_Date_&_Time" : "Date &amp; heure",
+
+    "Universal_Title": "Calenso Booking",
+
+    "Header_Title": "Assistant de configuration de Wordpress",
+    "Header_Subtitle": "Intégrez Calenso à votre site web grâce à notre assistant de configuration intuitif.",
+    
+
+    "Stepper_Step_1_Introduction": "Introduction",
+    "Stepper_Step_2_Booking_Name": "Nom de réservation",
+    "Stepper_Step_3_Configuration": "Configuration",
+    "Stepper_Step_4_Integration_Code": "Code d'intégration",
+
+
+    "Page_1_Text_Calenso_Description_Part_1": "Calenso permet de prendre des rendez-vous en ligne entre vous et vos clients pour des rendez-vous individuels, des réservations de groupe ou des ressources telles que des salles, des véhicules, des places de parking et bien plus encore.",
+    "Page_1_Text_Calenso_Description_Part_2": "Cet outil intelligent calcule non seulement tous les rendez-vous libres en comparant plusieurs calendriers, mais rappelle également à vos clients les rendez-vous à venir. D'autres fonctions intelligentes et entièrement automatiques telles que les Smart Actions ou les fonctions de paiement vous offrent un large éventail de fonctions en quatre langues. Intelligent - Simple - Transparent !",
+    
+    "Page_1_Button_Calenso_Account_Exists": "Allons-y ! - J'ai déjà un compte Calenso",
+    "Page_1_Button_Create_New_Calenso_Account": "Je voudrais créer un compte Calenso !",
+
+
+    "Page_2_Text_Booking_Link_Description": "Lorsque vous vous êtes inscrit à Calenso, un lien de réservation a été généré pour vous sur la base du nom de votre entreprise. Vous pouvez trouver le lien de réservation dans votre tableau de bord Calenso sous : ",
+    "Page_2_Text_Link_To_Booking_Link_Location":"Paramètres > Profil de l'entreprise > Lien de réservation.",
+    "Page_2_Text_Booking_Link_Instructions":"Veuillez insérer le lien de réservation dans le champ de texte ci-dessous et cliquer sur “Continuer“.",
+    
+    "Page_2_Input_Booking_Link":"Entrez le nom de la réservation...",
+    "Page_2_Button_Continue":"Continuer",
+    
+    "Page_2_Text_Error_Message_Booking_Link_Wrong":"Malheureusement, aucun compte Calenso n'a pu être trouvé pour le nom de réservation saisi. Veuillez essayer un autre nom de réservation.",
+
+
+    "Page_3_Text_Integration_Type_Selector":"Type d'intégration",
+    "Page_3_Selection_iFrame":"iFrame",
+    "Page_3_Selection_Web_Component":"Web-Composant",
+    "Page_3_Text_Support_Article_Part_1":"Cet article de support ",
+    "Page_3_Text_Support_Article_Part_2":"décrit la différence entre iFrame et composant web.",
+
+    "Page_3_Text_Booking_Type_Selector":"Type de réservation",   
+    "Page_3_Selection_Appointment":"Rendez-vous",
+
+    "Page_3_Text_Branch_Selector": "Branche",
+
+    "Page_3_Text_Service_Selector":"Service",
+
+    "Page_3_Text_Group_Appointment_Selector": "Rendez-vous en groupe",
+    "Page_3_Text_Group_Appointment_Error_Not_Found":"Pas de rendez-vous en groupe trouvée.",
+
+    "Page_3_Text_Employee_Selector":"Employés",
+    
+    "Page_3_Button_Update_Shortcode":"Enregistrer le shortcode",
+
+    "Page_3_Text_Language_Selector":"Langue",
+
+    "Page_3_Button_Create_Shortcode":"Créer un shortcode",
+
+
+    "Page_4_Text_Shortcode_Instructions" :"Placez ce shortcode sur n'importe quelle page/poste de ce site web pour afficher le widget de réservation Calenso.",
+    "Page_4_Button_Finalize_Setup":"Finaliser la configuration",
+
+ 
+    "Sidebar_Text_Description":"Visitez la page de support",
+    "Sidebar_Text_Setup_Question":"Vous n'avez pas l'envie ou le temps de créer un compte ?",
+    "Sidebar_Button_Link_To_Setup_Help":"Faisons la configuration",
+
+    
+    "Error_Text_Missing_Data":"Certaines données requises sont manquantes.",
+    "Error_Text_Problem_Has_Occured":"Un problème est survenu Veuillez réessayer."    
+}

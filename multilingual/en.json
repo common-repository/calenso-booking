@@ -1,0 +1,73 @@
+{   
+    "Add_New_Button":"Add New",
+    "Shortcode_Tab_Title" : "Title",
+    "Shortcode_Tab_Details" : "Details",
+    "Shortcode_Tab_Shortcode" : "Shortcode",
+    "Shortcode_Tab_Date_&_Time" : "Date &amp; Time",
+
+    "Universal_Title": "Calenso Booking",
+
+    "Header_Title": "Wordpress Setup Wizard",
+    "Header_Subtitle": "Integrate Calenso into your website with our intuitive setup wizard.",
+    
+
+    "Stepper_Step_1_Introduction": "Introduction",
+    "Stepper_Step_2_Booking_Name": "Bookingname",
+    "Stepper_Step_3_Configuration": "Configuration",
+    "Stepper_Step_4_Integration_Code": "Integrationcode",
+
+
+    "Page_1_Text_Calenso_Description_Part_1": "Calenso enables online appointments between you and your customers for individual appointments, group bookings or resources such as rooms, vehicles, parking spaces and much more.",
+    "Page_1_Text_Calenso_Description_Part_2": "The intelligent tool not only calculates all free appointments by comparing several calendars, but also reminds your customers of upcoming appointments. Further intelligent and fully automatic functions such as Smart Actions or the payment functions offer you a wide range of functions in four languages. Intelligent - Simple - Transparent!",
+    
+    "Page_1_Button_Calenso_Account_Exists": "Let's go! - I already have a Calenso account",
+    "Page_1_Button_Create_New_Calenso_Account": "I would like to create a Calenso account!",
+
+
+    "Page_2_Text_Booking_Link_Description": "When you registered with Calenso, a booking link was generated for you based on your company name. You can find the booking link in your Calenso dashboard under: ",
+    "Page_2_Text_Link_To_Booking_Link_Location":"Settings > Company profile > Booking link.",
+    "Page_2_Text_Booking_Link_Instructions":"Please paste the booking link in the text box below and click “Continue“.",
+    
+    "Page_2_Input_Booking_Link":"Enter booking name...",
+    "Page_2_Button_Continue":"Next",
+    
+    "Page_2_Text_Error_Message_Booking_Link_Wrong":"Unfortunately, no Calenso account could be found for the booking name entered. Please try with another booking name.",
+
+
+    "Page_3_Text_Integration_Type_Selector":"Integration type",
+    "Page_3_Selection_iFrame":"iFrame",
+    "Page_3_Selection_Web_Component":"Web-Component",
+    "Page_3_Text_Support_Article_Part_1":"This support article ",
+    "Page_3_Text_Support_Article_Part_2":"describes the difference between iFrame and Web-Component.",
+
+    "Page_3_Text_Booking_Type_Selector":"Booking type",   
+    "Page_3_Selection_Appointment":"Appointment",
+
+    "Page_3_Text_Branch_Selector": "Branch",
+
+    "Page_3_Text_Service_Selector":"Service",
+
+    "Page_3_Text_Group_Appointment_Selector": "Group appointment",
+    "Page_3_Text_Group_Appointment_Error_Not_Found":"No group appointment found.",
+
+    "Page_3_Text_Employee_Selector":"Employees",
+
+    "Page_3_Text_Language_Selector":"Language",
+
+    "Page_3_Button_Create_Shortcode":"Create shortcode",
+    
+    "Page_3_Button_Update_Shortcode":"Save shortcode",
+
+
+    "Page_4_Text_Shortcode_Instructions" :"Place this shortcode on any page/post of this site to display the Calenso booking widget.",
+    "Page_4_Button_Finalize_Setup":"Finalize setup",
+
+ 
+    "Sidebar_Text_Description":"Visit the support page",
+    "Sidebar_Text_Setup_Question":"No desire and time to set up the account?",
+    "Sidebar_Button_Link_To_Setup_Help":"Let us do the setup",
+
+    
+    "Error_Text_Missing_Data":"Some required data is missing.",
+    "Error_Text_Problem_Has_Occured":"A problem has occurred please try again."    
+}

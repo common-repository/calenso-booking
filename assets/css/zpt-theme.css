@@ -1,0 +1,514 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenS/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+/*Body*/
+body.toplevel_page_calenso_wordpress_widget{
+    background: #ebf1fb !important;
+    background-color: #ebf1fb !important;
+}
+
+/*Checkmark*/
+:root {
+    --borderWidth: 5px;
+    --height: 18px;
+    --width: 9px;
+    --borderColor: rgb(190, 221, 133);
+}
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+    border-radius: 4px;
+  }
+/*Stepper*/
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 29px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    top: 29px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 6px;
+    border-style: solid;
+    border-color: rgb(125, 125, 125);
+    border-width: 4px;
+    font-size: 24px;
+    color: rgb(217, 217, 217);
+  }
+  
+  .stepper-item.active {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .step-name {
+      font-weight: 400;
+      color: #3a4a66;
+      font-size: 14px !important;
+      font-family: 'OpenSans', sans-serif;
+    }
+
+  .stepper-item.active .step-counter{
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(236, 241, 250);
+    margin-bottom: 6px;
+    border-style: solid;
+    border-color: #3a4a66;
+    border-width: 4px;    
+    color: #3a4a66;
+  }
+  
+  .stepper-item.completed .step-counter {
+    background-color: white;
+    border-color: rgb(190, 221, 133);
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid rgb(190, 221, 133);
+    width: 100%;
+    top: 29px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
+/*font*/
+.Wordpress-Ein {
+    font-weight: 700 !important;
+    margin-bottom: 4px;
+    font-family: 'OpenSans', sans-serif !important;
+    font-size: 16px !important;
+    /*text-shadow: 1px 0 #3a4a66;*/
+}
+.start-page-title {
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+}
+.calenso-sub {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+.calenso-subber {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400 !important;
+    font-size: 11px;
+}
+.calenso-font {
+    font-weight: 700;
+    font-family: 'OpenSans', sans-serif;
+}
+.calenso-size {
+    font-weight: 600;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+}
+.calenso-selector {
+    font-size: 13.3333px;
+    font-weight: 400;
+    padding-right: 20px;
+    min-width: 100%;
+}
+.calenso-red-error {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    font-family: 'OpenSans', sans-serif;
+    color: #ef6565;
+    margin-top: 5px;
+}
+.calenso-font-color{
+    color: #3a4a66 !important;
+}
+.purple {
+    color: #7676ff;
+}
+/*unique*/
+.calenso-textarea {
+    background-color: white !important;
+    border-color: rgb(140, 143, 148);
+    width: 100%;
+}
+/*unique*/
+.flexo {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+/*alignment & form*/
+#pls {
+    margin: 0;
+}
+h3 {
+    margin: 0em;
+}
+.paleft {
+    padding-left: 30px !important;
+    min-width: 100px !important;
+}
+.paright {
+    padding-right: 50px;
+}
+.text-right {
+    text-align: right;
+}
+.text-center{
+    text-align:center;
+}
+.postbox .selector {
+    width: 100%;
+    min-width: 190px;
+}
+.selector {
+    min-width: 400px;
+}
+.postbox .ses {
+    width: 100%;
+}
+.ses {
+    max-width: 400px;
+}
+/*boxes & borders*/
+.calenso-selector .selector:focus, .calenso-selector .selector:hover, .zpt-form-control, .calenso-textarea, .clean {
+    color: #3a4a66;
+    box-shadow: none !important;
+    border-color: #3a4a66 !important;
+}
+.calenso-table-selected{
+    border-color: #3a4a66;
+    border-style: solid;
+    border-width: 3px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    transition-property: background-color;
+    background-color: #3a4a66;
+    color: white;
+}
+.calenso-redborder-error {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+/*unique*/
+.clean {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    margin-left: 0 !important;
+    height: 34.5px !important;    
+    margin: 0px !important;
+    width: 100%;
+}
+/*unique*/
+.bor{
+    border-radius: 2px;
+    border-color: #3a4a66;
+    border-style: solid;
+    border-width: 1px;
+    width: min-content !important;
+    color: white;
+    background-color: #3a4a66;
+    padding: 6px !important;
+    font-family: 'OpenSans', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px !important;
+}
+/*button*/
+.button-noborder{
+    background: none;
+    border: none;
+}
+button.calenso-button {
+    border: none;
+    background: #3a4a66;
+    color: white;
+    white-space: normal;
+    padding: 10px 18px;
+    max-width: 200px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: 'OpenSans', sans-serif;
+    cursor:pointer;
+}
+button.calenso-btn-start {
+    border: none;
+    background: #3a4a66;
+    color: white;
+    white-space: normal;
+    max-width: 200px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: 'OpenSans', sans-serif;
+    min-height: 100px;
+    cursor:pointer;
+}
+/*no-border*/
+.no-border{
+    border:none !important;
+}
+.no-border-radius{
+    border-radius: 0px !important;
+}
+/*zpt*/
+.zpt-form{
+    position:relative;
+    display:inline-block;
+    width:100% !important;
+}
+.postbox .zpt-box {
+    background: #FFF;
+    box-shadow: 0px 0px 25px rgba(151,160,191,.3);
+    border-radius:10px;
+    margin: 20px 0px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    transition: all 0.5s ease-out;
+    min-width: 40%;
+    max-width: initial;
+    display: inline-block;
+}
+.zpt-box{
+    background: #FFF;
+    box-shadow: 0px 0px 25px rgba(151,160,191,.3);
+    border-radius:10px;
+    margin: 20px 0px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    transition: all 0.5s ease-out;
+    min-width: 40%;
+    max-width: min-content;
+    display: inline-block;
+}
+
+.inside .zpt-box{
+    box-shadow: none;
+    border-radius:0px;
+}
+.zpt-box:hover{
+    /*box-shadow: 0 0 6px #4183D7;*/
+}
+.zpt-box .zpt-box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.zpt-box .zpt-box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+.number_zpt{
+    border-radius: 100%;
+    border: 1px solid #00000073;
+    font-size: 2rem;
+    padding: 5px 13px;
+    float: left;
+}
+
+.check_label{
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+.calenso-booking_page_calenso_widget_shortcode input[type="checkbox"]{
+    outline:none !important;
+}
+
+.calenso-booking_page_calenso_widget_shortcode .radio-custom {
+    opacity: 0;
+    position: absolute;
+}
+.calenso-booking_page_calenso_widget_shortcod .radio-custom, .calenso-booking_page_calenso_widget_shortcod .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.calenso-booking_page_calenso_widget_shortcod .form_setting{
+    display:inline-block !important;
+}
+.zpt-form .zpt-btn-default {
+    max-width: 200px;
+    white-space: normal;
+    display: inline-block;
+    float: none;
+}
+.zpt-inner-desc {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 10px 0px 30px 0px;
+}
+.zpt-inner-desc p {
+    text-align: justify;
+    max-width: 550px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.zpt-pg {
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img.zpt-image {
+    max-width: 400px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.zpt-ckb {
+}
+.zpt-inside{
+    display:none;
+}
+.inside .zpt-box{
+    border:none;
+    margin:0px;
+}
+.inside .zpt-calenso-sidebar{
+    display:none;
+}
+.inside .zpt-inside {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+}
+.inside .zpt-open {
+    display: none;
+}
+.zpt-has-error input.zpt-form-control {
+    border-color: #e40236;
+}
+.zpt-error{
+    color: #e40236;
+    margin-top: 5px;
+    display: inline-block;
+}
+.zpt-calenso-sidebar{
+    width:100%;
+    max-width:300px;
+    display:inline-block;
+    position:relative;
+    border-radius: 10px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 25px rgba(151,160,191,.3);
+}
+.zpt-box + .zpt-calenso-sidebar {
+    margin-left: 20px;
+}
+.calenso-head {
+    background: linear-gradient(45deg, #aeadf9, #afc8fb);
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    text-align: center;
+}
+.calenso-head .zpt-image {
+    max-width: 100px;
+    display: inline-block;
+    margin: 30px 0px;
+}
+.calenso-body {
+    background: white;
+    padding: 0px 20px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:#3a4a66;
+}
+.calenso-ptl {
+    padding: 25px 0px;
+}
+.calenso-ptl .zpt-image {
+    max-width: 45px;
+    display: inline-block;
+    margin: 0px;
+}
+.calenso-ptl h3 {
+    display: inline-block;
+    margin: 0px;
+    font-size:16px;
+    color:#3a4a66;
+}
+.calenso-separator {
+    width: 100%;
+    /*display: inline-block;*/
+    background: silver;
+    height: 1px;
+}
+.calenso-lower {
+    padding-top: 15px;
+    text-align: center;
+}
+.calenso-lower h3{
+    color:#3a4a66;
+}

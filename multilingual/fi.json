@@ -1,0 +1,73 @@
+{   
+    "Add_New_Button":"Lisää uusi",
+    "Shortcode_Tab_Title" : "Otsikko",
+    "Shortcode_Tab_Details" : "Tiedot",
+    "Shortcode_Tab_Shortcode" : "Shortcode",
+    "Shortcode_Tab_Date_&_Time" : "Päivämäärä &amp; Aika",
+
+    "Universal_Title": "Calenso Booking",
+
+    "Header_Title": "Ohjattu Wordpress-asennus",
+    "Header_Subtitle": "Integroi Calenso verkkosivustoosi intuitiivisen asennusvelhon avulla.",
+    
+
+    "Stepper_Step_1_Introduction": "Johdanto",
+    "Stepper_Step_2_Booking_Name": "Varauksen nimi",
+    "Stepper_Step_3_Configuration": "Konfigurointi",
+    "Stepper_Step_4_Integration_Code": "Integrointikoodi",
+
+
+    "Page_1_Text_Calenso_Description_Part_1": "Calenso mahdollistaa verkossa tapahtuvat tapaamiset sinun ja asiakkaidesi välillä yksittäisiä tapaamisia, ryhmävarauksia tai resursseja, kuten huoneita, ajoneuvoja, pysäköintipaikkoja ja paljon muuta varten.",
+    "Page_1_Text_Calenso_Description_Part_2": "Älykäs työkalu ei ainoastaan laske kaikkia vapaita tapaamisia vertailemalla useita kalentereita, vaan myös muistuttaa asiakkaitasi tulevista tapaamisista. Älykkäät ja täysin automaattiset toiminnot, kuten Smart Actions tai maksutoiminnot, tarjoavat laajan valikoiman toimintoja neljällä kielellä. Älykäs - yksinkertainen - läpinäkyvä!",
+    
+    "Page_1_Button_Calenso_Account_Exists": "Mennään! - Minulla on jo Calenso-tili",
+    "Page_1_Button_Create_New_Calenso_Account": "Haluaisin luoda Calenso-tilin!",
+
+
+    "Page_2_Text_Booking_Link_Description": "Kun rekisteröidyit Calensoon, sinulle luotiin varauslinkki yrityksesi nimen perusteella. Löydät varauslinkin Calenso-kojelaudaltasi kohdasta:",
+    "Page_2_Text_Link_To_Booking_Link_Location":"Asetukset > Yritysprofiili > Varauslinkki.",
+    "Page_2_Text_Booking_Link_Instructions":"Kirjoita varauslinkki alla olevaan tekstikenttään ja klikkaa 'Jatka'.",
+    
+    "Page_2_Input_Booking_Link":"Kirjoita varauksen nimi...",
+    "Page_2_Button_Continue":"Lisää",
+    
+    "Page_2_Text_Error_Message_Booking_Link_Wrong":"Valitettavasti Calenso-tiliä ei löytynyt syötetylle varauksen nimelle. Kokeile toista varausnimeä.",
+
+
+    "Page_3_Text_Integration_Type_Selector":"Integrointitaide",
+    "Page_3_Selection_iFrame":"iFrame",
+    "Page_3_Selection_Web_Component":"Verkkokomponentti",
+    "Page_3_Text_Support_Article_Part_1":"Tämä tukiartikkeli ",
+    "Page_3_Text_Support_Article_Part_2":"kuvataan iFramen ja web-komponentin ero.",
+
+    "Page_3_Text_Booking_Type_Selector":"Varaustyyppi",   
+    "Page_3_Selection_Appointment":"Nimitys",
+
+    "Page_3_Text_Branch_Selector": "Tytäryhtiö",
+
+    "Page_3_Text_Service_Selector":"Palvelu",
+
+    "Page_3_Text_Group_Appointment_Selector": "Ryhmätapaaminen",
+    "Page_3_Text_Group_Appointment_Error_Not_Found":"Ryhmäpäivämäärää ei löytynyt.",
+
+    "Page_3_Text_Employee_Selector":"Työntekijät",
+    
+    "Page_3_Button_Update_Shortcode":"Tallenna lyhytkoodia",
+
+    "Page_3_Text_Language_Selector":"Kieli",
+
+    "Page_3_Button_Create_Shortcode":"Lyhyen koodin luominen",
+
+
+    "Page_4_Text_Shortcode_Instructions" :"Aseta tämä lyhytkoodi millä tahansa sivulla / post tämän sivuston näyttää Calenso varaus widget.",
+    "Page_4_Button_Finalize_Setup":"Viimeistele asetukset",
+
+ 
+    "Sidebar_Text_Description":"Käy tukisivulla",
+    "Sidebar_Text_Setup_Question":"Eikö sinulla ole halua tai aikaa perustaa tiliä?",
+    "Sidebar_Button_Link_To_Setup_Help":"Tehdään asetukset",
+
+    
+    "Error_Text_Missing_Data":"Jotkin vaaditut tiedot puuttuvat.",
+    "Error_Text_Problem_Has_Occured":"On ilmennyt ongelma Yritä uudelleen."    
+}
